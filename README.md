@@ -4,16 +4,6 @@ MuJoCo 기반 멀티로봇 pick-and-place 시뮬레이션 환경.
 9대의 ROBOTIS OMX-F 로봇이 4×4 그리드에서 물체를 조작하는 시뮬레이션을 제공하며,
 ROS2 Action Server를 통해 BT(Behaviour Tree)와 연동할 수 있다.
 
-## 시스템 구조
-
-```
-BT.xml → py_bt_ros → ROS2 Action Server → MuJoCo Simulation
-                          ↓
-                    /sim_state (Topic)
-                          ↓
-                   BT Condition Nodes
-```
-
 ## 그리드 레이아웃
 
 4×4 그리드 (16개 구역) + 9대 로봇 (내부 교차점)
@@ -66,8 +56,6 @@ git clone https://github.com/ROBOTIS-GIT/robotis_mujoco_menagerie.git
 ```
 
 ### 2. 시스템 Python에 MuJoCo 설치
-
-conda를 사용하지 않고 시스템 Python에 설치해야 ROS2와 호환된다.
 
 ```bash
 pip install mujoco numpy --break-system-packages
