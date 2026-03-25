@@ -1,0 +1,10 @@
+# Reach action: robot reaches toward a zone (without picking)
+int32 robot_id
+int32 zone_id
+---
+# Result
+bool success
+string message
+---
+# Feedback
+string status
