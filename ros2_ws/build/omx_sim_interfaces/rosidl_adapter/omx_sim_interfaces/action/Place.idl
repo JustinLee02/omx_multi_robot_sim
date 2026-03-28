@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from omx_sim_interfaces/action/Place.action
+// generated code does not contain a copyright notice
+
+
+module omx_sim_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Place action: move a robot directly to a target joint command." "\n"
+      "joints order: [J1, J2, J3, J4, J5, Gripper]")
+    struct Place_Goal {
+      int32 robot_id;
+
+      sequence<double> joints;
+
+      double duration;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Place_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct Place_Feedback {
+      string status;
+    };
+  };
+};

@@ -1,0 +1,25 @@
+[0.440s] Invoking command in '/home/lsoo6741/ros2_ws/src/omx_sim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lsoo6741/ros2_ws/build/omx_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lsoo6741/ros2_ws/install/omx_sim/lib/python3.12/site-packages:/home/lsoo6741/ros2_ws/install/omx_sim_interfaces/lib/python3.12/site-packages:/home/lsoo6741/ros2_ws/install/omx_sim/lib/python3.12/site-packages:/home/lsoo6741/workspace/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/lsoo6741/workspace/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/lsoo6741/workspace/ros2_ws/install/my_turtle_pkg/lib/python3.12/site-packages:/home/lsoo6741/workspace/ros2_ws/install/action_tutorials_py/lib/python3.12/site-packages:/home/lsoo6741/workspace/ros2_ws/install/action_tutorials_interfaces/lib/python3.12/site-packages:/home/lsoo6741/workspace/ros2_ws/install/action_chaser_py/lib/python3.12/site-packages:/home/lsoo6741/workspace/ros2_ws/install/action_chaser_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/omx_sim build --build-base /home/lsoo6741/ros2_ws/build/omx_sim/build install --record /home/lsoo6741/ros2_ws/build/omx_sim/install.log --single-version-externally-managed install_data
+[0.575s] running egg_info
+[0.584s] writing ../../build/omx_sim/omx_sim.egg-info/PKG-INFO
+[0.584s] writing dependency_links to ../../build/omx_sim/omx_sim.egg-info/dependency_links.txt
+[0.584s] writing entry points to ../../build/omx_sim/omx_sim.egg-info/entry_points.txt
+[0.584s] writing requirements to ../../build/omx_sim/omx_sim.egg-info/requires.txt
+[0.584s] writing top-level names to ../../build/omx_sim/omx_sim.egg-info/top_level.txt
+[0.602s] reading manifest file '../../build/omx_sim/omx_sim.egg-info/SOURCES.txt'
+[0.602s] writing manifest file '../../build/omx_sim/omx_sim.egg-info/SOURCES.txt'
+[0.602s] running build
+[0.602s] running build_py
+[0.602s] copying omx_sim/sim_action_server.py -> /home/lsoo6741/ros2_ws/build/omx_sim/build/lib/omx_sim
+[0.603s] running install
+[0.606s] running install_lib
+[0.615s] copying /home/lsoo6741/ros2_ws/build/omx_sim/build/lib/omx_sim/sim_action_server.py -> /home/lsoo6741/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim
+[0.615s] byte-compiling /home/lsoo6741/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim/sim_action_server.py to sim_action_server.cpython-312.pyc
+[0.617s] running install_data
+[0.617s] running install_egg_info
+[0.627s] removing '/home/lsoo6741/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim-0.1.0-py3.12.egg-info' (and everything under it)
+[0.627s] Copying ../../build/omx_sim/omx_sim.egg-info to /home/lsoo6741/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim-0.1.0-py3.12.egg-info
+[0.627s] running install_scripts
+[0.695s] Installing sim_action_server script to /home/lsoo6741/ros2_ws/install/omx_sim/lib/omx_sim
+[0.695s] Installing state_publisher script to /home/lsoo6741/ros2_ws/install/omx_sim/lib/omx_sim
+[0.695s] writing list of installed files to '/home/lsoo6741/ros2_ws/build/omx_sim/install.log'
+[0.709s] Invoked command in '/home/lsoo6741/ros2_ws/src/omx_sim' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lsoo6741/ros2_ws/build/omx_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lsoo6741/ros2_ws/install/omx_sim/lib/python3.12/site-packages:/home/lsoo6741/ros2_ws/install/omx_sim_interfaces/lib/python3.12/site-packages:/home/lsoo6741/ros2_ws/install/omx_sim/lib/python3.12/site-packages:/home/lsoo6741/workspace/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/lsoo6741/workspace/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/lsoo6741/workspace/ros2_ws/install/my_turtle_pkg/lib/python3.12/site-packages:/home/lsoo6741/workspace/ros2_ws/install/action_tutorials_py/lib/python3.12/site-packages:/home/lsoo6741/workspace/ros2_ws/install/action_tutorials_interfaces/lib/python3.12/site-packages:/home/lsoo6741/workspace/ros2_ws/install/action_chaser_py/lib/python3.12/site-packages:/home/lsoo6741/workspace/ros2_ws/install/action_chaser_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/omx_sim build --build-base /home/lsoo6741/ros2_ws/build/omx_sim/build install --record /home/lsoo6741/ros2_ws/build/omx_sim/install.log --single-version-externally-managed install_data

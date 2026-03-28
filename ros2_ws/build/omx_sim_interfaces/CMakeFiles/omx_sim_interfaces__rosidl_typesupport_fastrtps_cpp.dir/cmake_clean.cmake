@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/omx_sim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/omx_sim_interfaces/action/detail/dds_fastrtps/pick__type_support.cpp.o"
+  "CMakeFiles/omx_sim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/omx_sim_interfaces/action/detail/dds_fastrtps/pick__type_support.cpp.o.d"
+  "CMakeFiles/omx_sim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/omx_sim_interfaces/action/detail/dds_fastrtps/place__type_support.cpp.o"
+  "CMakeFiles/omx_sim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/omx_sim_interfaces/action/detail/dds_fastrtps/place__type_support.cpp.o.d"
+  "CMakeFiles/omx_sim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/omx_sim_interfaces/action/detail/dds_fastrtps/reach__type_support.cpp.o"
+  "CMakeFiles/omx_sim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/omx_sim_interfaces/action/detail/dds_fastrtps/reach__type_support.cpp.o.d"
+  "libomx_sim_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libomx_sim_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/omx_sim_interfaces/action/detail/dds_fastrtps/pick__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/omx_sim_interfaces/action/detail/dds_fastrtps/place__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/omx_sim_interfaces/action/detail/dds_fastrtps/reach__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/omx_sim_interfaces/action/detail/pick__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/omx_sim_interfaces/action/detail/place__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/omx_sim_interfaces/action/detail/reach__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/omx_sim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

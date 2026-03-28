@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/omx_sim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/omx_sim_interfaces/action/detail/pick__type_support.c.o"
+  "CMakeFiles/omx_sim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/omx_sim_interfaces/action/detail/pick__type_support.c.o.d"
+  "CMakeFiles/omx_sim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/omx_sim_interfaces/action/detail/place__type_support.c.o"
+  "CMakeFiles/omx_sim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/omx_sim_interfaces/action/detail/place__type_support.c.o.d"
+  "CMakeFiles/omx_sim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/omx_sim_interfaces/action/detail/reach__type_support.c.o"
+  "CMakeFiles/omx_sim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/omx_sim_interfaces/action/detail/reach__type_support.c.o.d"
+  "libomx_sim_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libomx_sim_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/omx_sim_interfaces/action/detail/pick__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/omx_sim_interfaces/action/detail/pick__type_support.c"
+  "rosidl_typesupport_introspection_c/omx_sim_interfaces/action/detail/place__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/omx_sim_interfaces/action/detail/place__type_support.c"
+  "rosidl_typesupport_introspection_c/omx_sim_interfaces/action/detail/reach__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/omx_sim_interfaces/action/detail/reach__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/omx_sim_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

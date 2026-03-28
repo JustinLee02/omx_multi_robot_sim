@@ -1,0 +1,15 @@
+{
+  "package_name": "omx_sim_interfaces",
+  "output_dir": "/home/lsoo6741/ros2_ws/build/omx_sim_interfaces/rosidl_generator_type_description/omx_sim_interfaces",
+  "idl_tuples": [
+    "/home/lsoo6741/ros2_ws/build/omx_sim_interfaces/rosidl_adapter/omx_sim_interfaces:action/Pick.idl",
+    "/home/lsoo6741/ros2_ws/build/omx_sim_interfaces/rosidl_adapter/omx_sim_interfaces:action/Place.idl",
+    "/home/lsoo6741/ros2_ws/build/omx_sim_interfaces/rosidl_adapter/omx_sim_interfaces:action/Reach.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

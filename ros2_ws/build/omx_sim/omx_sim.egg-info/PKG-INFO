@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: omx-sim
+Version: 0.1.0
+Summary: OMX multi-robot simulation with ROS2 action servers
+Maintainer: Justin
+Maintainer-email: justin@todo.todo
+License: Apache-2.0

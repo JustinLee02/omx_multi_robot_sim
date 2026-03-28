@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d022c5bb0465632e8a2f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "omx_sim_interfaces__py",
+					"jsonFile" : "directory-omx_sim_interfaces__py-9a8efb190ffab6b102c8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/lsoo6741/ros2_ws/build/omx_sim_interfaces/omx_sim_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "omx_sim_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_omx_sim_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_omx_sim_interfaces_egg-cc9d4589d60ccf5e01d2.json",
+					"name" : "ament_cmake_python_build_omx_sim_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_omx_sim_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_omx_sim_interfaces-f0dba65a371ac70d8ae5.json",
+					"name" : "ament_cmake_python_copy_omx_sim_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omx_sim_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omx_sim_interfaces-5a4e73b843a0266486ad.json",
+					"name" : "omx_sim_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omx_sim_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omx_sim_interfaces__cpp-0cda8714e88e37adaaa1.json",
+					"name" : "omx_sim_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "omx_sim_interfaces__py::@6eeeaeb48e0402d16613",
+					"jsonFile" : "target-omx_sim_interfaces__py-ccaf7aedbaf68a8f9b23.json",
+					"name" : "omx_sim_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omx_sim_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omx_sim_interfaces__rosidl_generator_c-1efca83c1ec896bc3f1e.json",
+					"name" : "omx_sim_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omx_sim_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omx_sim_interfaces__rosidl_generator_py-09683c96125d177aefbe.json",
+					"name" : "omx_sim_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omx_sim_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omx_sim_interfaces__rosidl_generator_type_description-ad8111a02bc36eaa0418.json",
+					"name" : "omx_sim_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omx_sim_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omx_sim_interfaces__rosidl_typesupport_c-b9ff4bddb7f8809f64e0.json",
+					"name" : "omx_sim_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omx_sim_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omx_sim_interfaces__rosidl_typesupport_cpp-bcee1ab68bc00505db2d.json",
+					"name" : "omx_sim_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omx_sim_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omx_sim_interfaces__rosidl_typesupport_fastrtps_c-255cd1ec4cbfe4388028.json",
+					"name" : "omx_sim_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omx_sim_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omx_sim_interfaces__rosidl_typesupport_fastrtps_cpp-19a963d83bfa28fb29cd.json",
+					"name" : "omx_sim_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omx_sim_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omx_sim_interfaces__rosidl_typesupport_introspection_c-a54d7d53d10a376566e4.json",
+					"name" : "omx_sim_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omx_sim_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omx_sim_interfaces__rosidl_typesupport_introspection_cpp-9f3777252540f8873f50.json",
+					"name" : "omx_sim_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omx_sim_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omx_sim_interfaces_s__rosidl_typesupport_c-79712f8e6b123adc8c2c.json",
+					"name" : "omx_sim_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omx_sim_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omx_sim_interfaces_s__rosidl_typesupport_fastrtps_c-17f22c61786f44d306f2.json",
+					"name" : "omx_sim_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omx_sim_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omx_sim_interfaces_s__rosidl_typesupport_introspection_c-8806650911646ea11d39.json",
+					"name" : "omx_sim_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omx_sim_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omx_sim_interfaces_uninstall-af964fe86be480733cac.json",
+					"name" : "omx_sim_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-861539341c02848ba006.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lsoo6741/ros2_ws/build/omx_sim_interfaces",
+		"source" : "/home/lsoo6741/ros2_ws/src/omx_sim_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

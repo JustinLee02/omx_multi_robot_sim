@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "omx_sim_interfaces__py",
+		"source" : "/home/lsoo6741/ros2_ws/build/omx_sim_interfaces/omx_sim_interfaces__py"
+	}
+}

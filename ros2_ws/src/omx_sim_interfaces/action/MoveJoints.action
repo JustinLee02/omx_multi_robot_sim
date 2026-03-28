@@ -1,0 +1,11 @@
+int32 robot_id
+float64[] joints # [J1, J2. J3, J4, J5, Gripper]
+float64 duration
+bool attach_object
+bool detach_object
+int32 zone_id
+---
+bool success
+string message
+---
+string status
