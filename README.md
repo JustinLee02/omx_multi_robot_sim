@@ -144,7 +144,7 @@ ros2 run omx_sim sim_action_server
 ```bash
 source /opt/ros/jazzy/setup.bash
 source ~/ros2_ws/install/setup.bash
-cd ~/omx_bt_planner
+cd ~/omx_multi_robot_sim/omx_bt_planner
 python3 test_integration.py
 ```
 
