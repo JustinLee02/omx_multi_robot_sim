@@ -1,0 +1,29 @@
+[0.007s] Invoking command in '/home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lsoo6741/workspace/ros2_ws/install/py_srvcli:/home/lsoo6741/workspace/ros2_ws/install/py_pubsub:/home/lsoo6741/workspace/ros2_ws/install/my_turtle_pkg:/home/lsoo6741/workspace/ros2_ws/install/action_tutorials_py:/home/lsoo6741/workspace/ros2_ws/install/action_chaser_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lsoo6741/omx_multi_robot_sim/ros2_ws/src/omx_sim_interfaces -DCMAKE_INSTALL_PREFIX=/home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim_interfaces
+[0.051s] -- The C compiler identification is GNU 13.3.0
+[0.093s] -- The CXX compiler identification is GNU 13.3.0
+[0.106s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.183s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.184s] -- Detecting C compile features
+[0.184s] -- Detecting C compile features - done
+[0.191s] -- Detecting CXX compiler ABI info
+[0.280s] -- Detecting CXX compiler ABI info - done
+[0.287s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.287s] -- Detecting CXX compile features
+[0.287s] -- Detecting CXX compile features - done
+[0.292s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.418s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.509s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.517s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.570s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.614s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.615s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.615s]   rosidl_generate_interfaces() the passed file 'action/BTReach/action'
+[0.615s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.615s]   '/home/lsoo6741/omx_multi_robot_sim/ros2_ws/src/omx_sim_interfaces'
+[0.615s] Call Stack (most recent call first):
+[0.615s]   CMakeLists.txt:7 (rosidl_generate_interfaces)
+[0.615s] 
+[0.615s] [0m
+[0.615s] -- Configuring incomplete, errors occurred!
+[0.619s] Invoked command in '/home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lsoo6741/workspace/ros2_ws/install/py_srvcli:/home/lsoo6741/workspace/ros2_ws/install/py_pubsub:/home/lsoo6741/workspace/ros2_ws/install/my_turtle_pkg:/home/lsoo6741/workspace/ros2_ws/install/action_tutorials_py:/home/lsoo6741/workspace/ros2_ws/install/action_chaser_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lsoo6741/omx_multi_robot_sim/ros2_ws/src/omx_sim_interfaces -DCMAKE_INSTALL_PREFIX=/home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim_interfaces

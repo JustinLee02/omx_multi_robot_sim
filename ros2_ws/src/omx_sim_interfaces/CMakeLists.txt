@@ -8,6 +8,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Pick.action"
   "action/Place.action"
   "action/Reach.action"
+  "action/BTPick.action"
+  "action/BTPlace.action"
+  "action/BTReach.action"
 )
 
 ament_package()

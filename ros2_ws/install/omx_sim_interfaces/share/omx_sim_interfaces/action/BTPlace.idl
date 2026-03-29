@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from omx_sim_interfaces/action/BTPlace.action
+// generated code does not contain a copyright notice
+
+
+module omx_sim_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "BTPlace action: high-level place command from py_bt_ros" "\n"
+      "robot_id: target robot (1-9)" "\n"
+      "zone_id: target zone to place to (1-16)")
+    struct BTPlace_Goal {
+      int32 robot_id;
+
+      int32 zone_id;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct BTPlace_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct BTPlace_Feedback {
+      string status;
+    };
+  };
+};

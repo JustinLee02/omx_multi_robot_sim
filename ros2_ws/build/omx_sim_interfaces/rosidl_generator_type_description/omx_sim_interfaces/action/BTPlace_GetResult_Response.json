@@ -1,0 +1,66 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "omx_sim_interfaces/action/BTPlace_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "omx_sim_interfaces/action/BTPlace_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "omx_sim_interfaces/action/BTPlace_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "message",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "omx_sim_interfaces/action/BTPlace_GetResult_Response",
+      "hash_string": "RIHS01_0d93facc88a11f87c26e40fadc175810c9a8d85ad6e0f4bbb848f9fa69ef3db6"
+    },
+    {
+      "type_name": "omx_sim_interfaces/action/BTPlace_Result",
+      "hash_string": "RIHS01_be8c2591164c758bc6355259786f67100251538014f0169fdeef8f9c75258b8d"
+    }
+  ]
+}

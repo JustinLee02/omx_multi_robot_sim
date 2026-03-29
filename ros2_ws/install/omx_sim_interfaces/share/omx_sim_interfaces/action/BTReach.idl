@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from omx_sim_interfaces/action/BTReach.action
+// generated code does not contain a copyright notice
+
+
+module omx_sim_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "BTReach action: high-level reach command from py_bt_ros" "\n"
+      "robot_id: target robot (1-9)" "\n"
+      "zone_id: target zone to reach (1-16)")
+    struct BTReach_Goal {
+      int32 robot_id;
+
+      int32 zone_id;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct BTReach_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct BTReach_Feedback {
+      string status;
+    };
+  };
+};

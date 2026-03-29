@@ -1,0 +1,12 @@
+# BTPlace action: high-level place command from py_bt_ros
+# robot_id: target robot (1-9)
+# zone_id: target zone to place to (1-16)
+int32 robot_id
+int32 zone_id
+---
+# Result
+bool success
+string message
+---
+# Feedback
+string status

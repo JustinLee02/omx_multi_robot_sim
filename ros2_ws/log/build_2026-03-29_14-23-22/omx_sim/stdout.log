@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/omx_sim/omx_sim.egg-info
+writing ../../build/omx_sim/omx_sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/omx_sim/omx_sim.egg-info/dependency_links.txt
+writing entry points to ../../build/omx_sim/omx_sim.egg-info/entry_points.txt
+writing requirements to ../../build/omx_sim/omx_sim.egg-info/requires.txt
+writing top-level names to ../../build/omx_sim/omx_sim.egg-info/top_level.txt
+writing manifest file '../../build/omx_sim/omx_sim.egg-info/SOURCES.txt'
+reading manifest file '../../build/omx_sim/omx_sim.egg-info/SOURCES.txt'
+writing manifest file '../../build/omx_sim/omx_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build
+creating /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build/lib
+creating /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build/lib/omx_sim
+copying omx_sim/bt_action_server.py -> /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build/lib/omx_sim
+copying omx_sim/__init__.py -> /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build/lib/omx_sim
+copying omx_sim/sim_action_server.py -> /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build/lib/omx_sim
+running install
+running install_lib
+creating /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim
+copying /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build/lib/omx_sim/bt_action_server.py -> /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim
+copying /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build/lib/omx_sim/__init__.py -> /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim
+copying /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build/lib/omx_sim/sim_action_server.py -> /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim
+byte-compiling /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim/bt_action_server.py to bt_action_server.cpython-312.pyc
+byte-compiling /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim/sim_action_server.py to sim_action_server.cpython-312.pyc
+running install_data
+creating /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/share/ament_index
+creating /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/share/ament_index/resource_index
+creating /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/share/ament_index/resource_index/packages
+copying resource/omx_sim -> /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/share/ament_index/resource_index/packages
+copying package.xml -> /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/share/omx_sim
+running install_egg_info
+Copying ../../build/omx_sim/omx_sim.egg-info to /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim-0.1.0-py3.12.egg-info
+running install_scripts
+Installing bt_action_server script to /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/omx_sim
+Installing sim_action_server script to /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/omx_sim
+writing list of installed files to '/home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/install.log'

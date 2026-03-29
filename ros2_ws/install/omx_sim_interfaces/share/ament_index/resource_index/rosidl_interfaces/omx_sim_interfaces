@@ -1,3 +1,9 @@
+action/BTPick.action
+action/BTPick.idl
+action/BTPlace.action
+action/BTPlace.idl
+action/BTReach.action
+action/BTReach.idl
 action/Pick.action
 action/Pick.idl
 action/Place.action

@@ -19,7 +19,7 @@ setup(
     entry_points={
         'console_scripts': [
             'sim_action_server = omx_sim.sim_action_server:main',
-            'state_publisher = omx_sim.state_publisher:main',
+            'bt_action_server = omx_sim.bt_action_server:main'
         ],
     },
 )

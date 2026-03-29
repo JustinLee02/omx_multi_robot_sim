@@ -5,6 +5,9 @@ omx_sim_interfaces.egg-info/SOURCES.txt
 omx_sim_interfaces.egg-info/dependency_links.txt
 omx_sim_interfaces.egg-info/top_level.txt
 omx_sim_interfaces/action/__init__.py
+omx_sim_interfaces/action/_bt_pick.py
+omx_sim_interfaces/action/_bt_place.py
+omx_sim_interfaces/action/_bt_reach.py
 omx_sim_interfaces/action/_pick.py
 omx_sim_interfaces/action/_place.py
 omx_sim_interfaces/action/_reach.py

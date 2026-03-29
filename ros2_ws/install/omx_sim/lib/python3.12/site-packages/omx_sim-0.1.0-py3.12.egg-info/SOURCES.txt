@@ -9,5 +9,6 @@ setup.py
 ../../build/omx_sim/omx_sim.egg-info/top_level.txt
 ../../build/omx_sim/omx_sim.egg-info/zip-safe
 omx_sim/__init__.py
+omx_sim/bt_action_server.py
 omx_sim/sim_action_server.py
 resource/omx_sim

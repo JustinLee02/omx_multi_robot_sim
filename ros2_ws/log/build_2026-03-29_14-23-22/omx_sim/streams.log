@@ -1,0 +1,41 @@
+[0.424s] Invoking command in '/home/lsoo6741/omx_multi_robot_sim/ros2_ws/src/omx_sim': AMENT_PREFIX_PATH=/home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/python3.12/site-packages:/home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/omx_sim build --build-base /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build install --record /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/install.log --single-version-externally-managed install_data
+[0.557s] running egg_info
+[0.557s] creating ../../build/omx_sim/omx_sim.egg-info
+[0.566s] writing ../../build/omx_sim/omx_sim.egg-info/PKG-INFO
+[0.566s] writing dependency_links to ../../build/omx_sim/omx_sim.egg-info/dependency_links.txt
+[0.566s] writing entry points to ../../build/omx_sim/omx_sim.egg-info/entry_points.txt
+[0.566s] writing requirements to ../../build/omx_sim/omx_sim.egg-info/requires.txt
+[0.566s] writing top-level names to ../../build/omx_sim/omx_sim.egg-info/top_level.txt
+[0.566s] writing manifest file '../../build/omx_sim/omx_sim.egg-info/SOURCES.txt'
+[0.585s] reading manifest file '../../build/omx_sim/omx_sim.egg-info/SOURCES.txt'
+[0.585s] writing manifest file '../../build/omx_sim/omx_sim.egg-info/SOURCES.txt'
+[0.585s] running build
+[0.585s] running build_py
+[0.585s] creating /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build
+[0.585s] creating /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build/lib
+[0.585s] creating /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build/lib/omx_sim
+[0.586s] copying omx_sim/bt_action_server.py -> /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build/lib/omx_sim
+[0.586s] copying omx_sim/__init__.py -> /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build/lib/omx_sim
+[0.586s] copying omx_sim/sim_action_server.py -> /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build/lib/omx_sim
+[0.586s] running install
+[0.589s] running install_lib
+[0.598s] creating /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim
+[0.598s] copying /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build/lib/omx_sim/bt_action_server.py -> /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim
+[0.598s] copying /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build/lib/omx_sim/__init__.py -> /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim
+[0.598s] copying /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build/lib/omx_sim/sim_action_server.py -> /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim
+[0.598s] byte-compiling /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim/bt_action_server.py to bt_action_server.cpython-312.pyc
+[0.599s] byte-compiling /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim/__init__.py to __init__.cpython-312.pyc
+[0.599s] byte-compiling /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim/sim_action_server.py to sim_action_server.cpython-312.pyc
+[0.601s] running install_data
+[0.601s] creating /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/share/ament_index
+[0.601s] creating /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/share/ament_index/resource_index
+[0.601s] creating /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/share/ament_index/resource_index/packages
+[0.601s] copying resource/omx_sim -> /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/share/ament_index/resource_index/packages
+[0.601s] copying package.xml -> /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/share/omx_sim
+[0.601s] running install_egg_info
+[0.611s] Copying ../../build/omx_sim/omx_sim.egg-info to /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/python3.12/site-packages/omx_sim-0.1.0-py3.12.egg-info
+[0.611s] running install_scripts
+[0.679s] Installing bt_action_server script to /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/omx_sim
+[0.680s] Installing sim_action_server script to /home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/omx_sim
+[0.680s] writing list of installed files to '/home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/install.log'
+[0.695s] Invoked command in '/home/lsoo6741/omx_multi_robot_sim/ros2_ws/src/omx_sim' returned '0': AMENT_PREFIX_PATH=/home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim/lib/python3.12/site-packages:/home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/omx_sim build --build-base /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/build install --record /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim/install.log --single-version-externally-managed install_data

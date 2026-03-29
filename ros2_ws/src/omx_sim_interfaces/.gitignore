@@ -1,0 +1,36 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+*.egg
+
+# MuJoCo
+*.mjb
+*.png
+*.stl
+
+# VSCode
+.vscode/
+
+# Conda
+.conda/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 심볼릭 링크 타겟 (로컬 환경 의존)
+robotis_omx/assets
+robotis_omx/omx.xml
+
+# 생성된 scene XML
+robotis_omx/multi_robot_scene.xml

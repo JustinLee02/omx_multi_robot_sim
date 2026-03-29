@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "rosidl_typesupport_interface/macros.h"
-#include "omx_sim_interfaces/action/detail/place__functions.h"
-#include "omx_sim_interfaces/action/detail/place__struct.h"
 #include "omx_sim_interfaces/action/detail/place__type_support.h"
+#include "omx_sim_interfaces/action/detail/place__struct.h"
+#include "omx_sim_interfaces/action/detail/place__functions.h"
 
 #ifdef __cplusplus
 extern "C"

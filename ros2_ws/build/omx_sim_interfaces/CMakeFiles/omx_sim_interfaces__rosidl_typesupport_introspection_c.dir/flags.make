@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DROSIDL_TYPESUPPORT_INTROSPECTION_C_BUILDING_DLL_omx_sim_interfaces -DROS_PACKAGE_NAME=\"omx_sim_interfaces\"
 
-C_INCLUDES = -I/home/lsoo6741/ros2_ws/build/omx_sim_interfaces/rosidl_typesupport_introspection_c -I/home/lsoo6741/ros2_ws/build/omx_sim_interfaces/rosidl_generator_c -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/action_msgs -isystem /opt/ros/jazzy/include/unique_identifier_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c
+C_INCLUDES = -I/home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim_interfaces/rosidl_typesupport_introspection_c -I/home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim_interfaces/rosidl_generator_c -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/action_msgs -isystem /opt/ros/jazzy/include/unique_identifier_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c
 
 C_FLAGS = -std=gnu11 -fPIC -Wall
 

@@ -1,0 +1,65 @@
+[0.008s] Invoking command in '/home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim:/home/lsoo6741/workspace/ros2_ws/install/py_srvcli:/home/lsoo6741/workspace/ros2_ws/install/py_pubsub:/home/lsoo6741/workspace/ros2_ws/install/my_turtle_pkg:/home/lsoo6741/workspace/ros2_ws/install/action_tutorials_py:/home/lsoo6741/workspace/ros2_ws/install/action_chaser_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim_interfaces -- -j12 -l12
+[0.015s] [0mCMake Error: The current CMakeCache.txt directory /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim_interfaces/CMakeCache.txt is different than the directory /home/lsoo6741/ros2_ws/build/omx_sim_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.069s] -- The C compiler identification is GNU 13.3.0
+[0.114s] -- The CXX compiler identification is GNU 13.3.0
+[0.129s] -- Detecting C compiler ABI info
+[0.202s] -- Detecting C compiler ABI info - done
+[0.208s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.209s] -- Detecting C compile features
+[0.209s] -- Detecting C compile features - done
+[0.216s] -- Detecting CXX compiler ABI info
+[0.295s] -- Detecting CXX compiler ABI info - done
+[0.302s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.302s] -- Detecting CXX compile features
+[0.302s] -- Detecting CXX compile features - done
+[0.310s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.440s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.548s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.556s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.612s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.658s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.081s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.362s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.724s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.728s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.816s] -- Found PythonExtra: /usr/bin/python3  
+[2.088s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.114s] -- Configuring done (2.1s)
+[2.138s] -- Generating done (0.0s)
+[2.140s] -- Build files have been written to: /home/lsoo6741/ros2_ws/build/omx_sim_interfaces
+[2.169s] [  1%] Built target omx_sim_interfaces__rosidl_generator_type_description
+[2.176s] [  1%] Built target ament_cmake_python_copy_omx_sim_interfaces
+[2.185s] [  3%] Built target omx_sim_interfaces__cpp
+[2.188s] [ 24%] Built target omx_sim_interfaces__rosidl_generator_c
+[2.206s] [ 42%] Built target omx_sim_interfaces__rosidl_typesupport_fastrtps_c
+[2.206s] [ 42%] Built target omx_sim_interfaces__rosidl_typesupport_c
+[2.206s] [ 51%] Built target omx_sim_interfaces__rosidl_typesupport_introspection_cpp
+[2.207s] [ 61%] Built target omx_sim_interfaces__rosidl_typesupport_introspection_c
+[2.207s] [ 70%] Built target omx_sim_interfaces__rosidl_typesupport_cpp
+[2.208s] [ 79%] Built target omx_sim_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.225s] [ 79%] Built target omx_sim_interfaces
+[2.241s] [ 81%] Built target omx_sim_interfaces__py
+[2.260s] [ 88%] Built target omx_sim_interfaces__rosidl_generator_py
+[2.276s] [ 92%] Built target omx_sim_interfaces_s__rosidl_typesupport_fastrtps_c
+[2.276s] [ 96%] Built target omx_sim_interfaces_s__rosidl_typesupport_introspection_c
+[2.277s] [100%] Built target omx_sim_interfaces_s__rosidl_typesupport_c
+[2.297s] running egg_info
+[2.297s] creating omx_sim_interfaces.egg-info
+[2.306s] writing omx_sim_interfaces.egg-info/PKG-INFO
+[2.306s] writing dependency_links to omx_sim_interfaces.egg-info/dependency_links.txt
+[2.306s] writing top-level names to omx_sim_interfaces.egg-info/top_level.txt
+[2.306s] writing manifest file 'omx_sim_interfaces.egg-info/SOURCES.txt'
+[2.332s] reading manifest file 'omx_sim_interfaces.egg-info/SOURCES.txt'
+[2.332s] writing manifest file 'omx_sim_interfaces.egg-info/SOURCES.txt'
+[2.350s] [100%] Built target ament_cmake_python_build_omx_sim_interfaces_egg
+[2.359s] Invoked command in '/home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim:/home/lsoo6741/workspace/ros2_ws/install/py_srvcli:/home/lsoo6741/workspace/ros2_ws/install/py_pubsub:/home/lsoo6741/workspace/ros2_ws/install/my_turtle_pkg:/home/lsoo6741/workspace/ros2_ws/install/action_tutorials_py:/home/lsoo6741/workspace/ros2_ws/install/action_chaser_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim_interfaces -- -j12 -l12
+[2.366s] Invoking command in '/home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim:/home/lsoo6741/workspace/ros2_ws/install/py_srvcli:/home/lsoo6741/workspace/ros2_ws/install/py_pubsub:/home/lsoo6741/workspace/ros2_ws/install/my_turtle_pkg:/home/lsoo6741/workspace/ros2_ws/install/action_tutorials_py:/home/lsoo6741/workspace/ros2_ws/install/action_chaser_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim_interfaces
+[2.372s] -- Install configuration: ""
+[2.373s] -- Installing: /home/lsoo6741/ros2_ws/install/omx_sim_interfaces/share/ament_index/resource_index/rosidl_interfaces/omx_sim_interfaces
+[2.373s] [31mCMake Error at cmake_install.cmake:50 (file):
+[2.373s]   file INSTALL cannot find
+[2.373s]   "/home/lsoo6741/ros2_ws/build/omx_sim_interfaces/rosidl_generator_type_description/omx_sim_interfaces/action/Pick.json":
+[2.373s]   No such file or directory.
+[2.373s] 
+[2.373s] [0m
+[2.374s] Invoked command in '/home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lsoo6741/omx_multi_robot_sim/ros2_ws/install/omx_sim:/home/lsoo6741/workspace/ros2_ws/install/py_srvcli:/home/lsoo6741/workspace/ros2_ws/install/py_pubsub:/home/lsoo6741/workspace/ros2_ws/install/my_turtle_pkg:/home/lsoo6741/workspace/ros2_ws/install/action_tutorials_py:/home/lsoo6741/workspace/ros2_ws/install/action_chaser_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lsoo6741/omx_multi_robot_sim/ros2_ws/build/omx_sim_interfaces

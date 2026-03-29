@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/omx_sim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/omx_sim_interfaces/action/_bt_pick_s.c.o"
+  "CMakeFiles/omx_sim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/omx_sim_interfaces/action/_bt_pick_s.c.o.d"
+  "CMakeFiles/omx_sim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/omx_sim_interfaces/action/_bt_place_s.c.o"
+  "CMakeFiles/omx_sim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/omx_sim_interfaces/action/_bt_place_s.c.o.d"
+  "CMakeFiles/omx_sim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/omx_sim_interfaces/action/_bt_reach_s.c.o"
+  "CMakeFiles/omx_sim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/omx_sim_interfaces/action/_bt_reach_s.c.o.d"
   "CMakeFiles/omx_sim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/omx_sim_interfaces/action/_pick_s.c.o"
   "CMakeFiles/omx_sim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/omx_sim_interfaces/action/_pick_s.c.o.d"
   "CMakeFiles/omx_sim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/omx_sim_interfaces/action/_place_s.c.o"
